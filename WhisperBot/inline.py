@@ -24,9 +24,9 @@ main = [
         thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/WhisperStarkBot?start=start")],
+                [InlineKeyboardButton("Learn More", url="https://t.me/Whisper_Ro_Bot?start=start")],
                 [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/venom_world_chatting_club")]
             ]
         ),
     )
@@ -88,7 +88,7 @@ async def previous_target(sender):
                       [
                           [
                               InlineKeyboardButton(
-                                  "🔐 Show Message 🔐",
+                                  "🙈 Show Message 🥀",
                                   callback_data=str(data_list),
                               )
                           ]
@@ -159,7 +159,7 @@ async def answer(bot: Client, query):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "🔐 Show Message 🔐",
+                                        "🙈 Show Message 🥀",
                                         callback_data=str(data_list),
                                     )
                                 ]
